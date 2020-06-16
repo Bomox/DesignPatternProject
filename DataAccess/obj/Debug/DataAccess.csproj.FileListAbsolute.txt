@@ -1,0 +1,60 @@
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\W10\source\repos\Project\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\source\repos\Project\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\W10\source\repos\Project\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\W10\source\repos\Project\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\W10\source\repos\Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\W10\source\repos\Project\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Sites\Project\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Sites\Project\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Sites\Project\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Sites\Project\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\W10\Desktop\Sites\Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Sites\Project\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\DataAccess\obj\Debug\DataAccess.pdb

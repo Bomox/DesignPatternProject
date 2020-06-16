@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DataAccess.User>
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>UserManager</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsAdministrator)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAdministrator)
+            </td>
+            <td>
+                @Html.ActionLink("Promote/Demote", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>
+
+@Html.ActionLink("Clear Database", "ClearDatabase", "User", new { @class = "btn btn-default" })
+

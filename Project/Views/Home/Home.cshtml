@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+<div class="divs">
+    <div class="slideshowdiv">
+
+        <div class="slide">
+            <div class="text"> 1 / 3 Weapons</div>
+            <a href="@Url.Action("Weapons", "Weapons")">
+                <img src="~/Images/slide1.jpg" alt="no pic" class="divpic" />
+            </a>
+        </div>
+
+        <div class="slide">
+            <div class="text">2 / 3 Warframes</div>
+            <a href="@Url.Action("Warframes", "Warframe")">
+                <img src="~/Images/slide2.jpg" alt="no pic" class="divpic" />
+            </a>
+        </div>
+
+        <div class="slide">
+            <div class="text">3 / 3 Planets</div>
+            <a href="@Url.Action("Planets", "Home")">
+                <img src="~/Images/slide3.jpg" alt="no pic" class="divpic" />
+            </a>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <br>
+
+    <div class="maindivleft">
+        <div class="divtitle">
+            <p>Visit the Official Site</p>
+        </div>
+        <div class="divpicholder">
+            <a href="https://www.warframe.com/" target="_blank"> <img class="divpic" src="~/Images/game.png" alt="no pic" /></a>
+        </div>
+    </div>
+
+    <div class="maindivright">
+        <div class="divtitle">
+            <p> Visit the Forums</p>
+        </div>
+        <div class="divpicholder">
+            <a href="https://forums.warframe.com/" target="_blank"> <img class="divpic" src="~/Images/forum.png" alt="no pic" /></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides(slideIndex);
+
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4000); // 
+    }
+
+
+</script>
+
+

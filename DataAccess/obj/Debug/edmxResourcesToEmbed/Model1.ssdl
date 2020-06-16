@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WarframeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="PasswordHash" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="PasswordSalt" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="IsAdministrator" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Warframes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Health" Type="int" Nullable="false" />
+    <Property Name="Energy" Type="int" Nullable="false" />
+    <Property Name="Armor" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Weapons">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="Damage" Type="int" Nullable="false" />
+    <Property Name="Magazine" Type="int" Nullable="false" />
+    <Property Name="Critical" Type="int" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WarframeModelStoreContainer">
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Warframes" EntityType="Self.Warframes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Weapons" EntityType="Self.Weapons" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

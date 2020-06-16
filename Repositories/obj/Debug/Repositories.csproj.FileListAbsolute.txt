@@ -1,0 +1,75 @@
+C:\Users\W10\source\repos\Project\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\W10\source\repos\Project\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\Repositories.dll
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\Repositories.pdb
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\DataAccess.dll
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\DataAccess.pdb
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\DataAccess.dll.config
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\W10\source\repos\Project\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\source\repos\Project\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\W10\source\repos\Project\Repositories\obj\Debug\Repositories.dll
+C:\Users\W10\source\repos\Project\Repositories\obj\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\Repositories.dll
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Sites\Project\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Sites\Project\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Sites\Project\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Sites\Project\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\W10\Desktop\Sites\Project\Repositories\obj\Debug\Repositories.dll
+C:\Users\W10\Desktop\Sites\Project\Repositories\obj\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\Repositories.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\obj\Debug\Repositories.dll
+C:\Users\W10\Desktop\Projects\Warframe Project\Repositories\obj\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\Repositories.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.dll
+C:\Users\W10\Desktop\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\Repositories.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\Repositories.pdb
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\DataAccess.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\DataAccess.pdb
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\DataAccess.dll.config
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.dll
+C:\Users\W10\Desktop\Projects\Warframe  Scarlet Spear Project\Repositories\obj\Debug\Repositories.pdb

@@ -1,0 +1,60 @@
+﻿@model DataAccess.Warframe
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this warframe?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Health)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Health)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Energy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Energy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Armor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Armor)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Delete" class="btn btn-default" /> 
+        </div>
+        <br />
+        <div class="col-md-offset-2 col-md-10">
+            @Html.ActionLink("Back to List", "Warframes", "Warframe", new { @class = "btn btn-default" }) 
+        </div>
+    }
+</div>

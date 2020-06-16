@@ -1,0 +1,81 @@
+﻿@using Project.Helpers;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/WarframeSheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body id="background">
+    <div class="divcontainer">
+        <div id="navigation">
+            <div id="navdivleft">
+            </div>
+            <div id="navdivmiddle">
+                <ul>
+                    <li>
+                        @Html.ActionLink("Home", "Home", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Weapons", "Weapons", "Weapons")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Warframes", "Warframes", "Warframe")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Planets", "Planets", "Home")
+                    </li>
+                    <li class="liright">
+                        @if (LoginUserSession.Current.IsAuthenticated)
+                        {
+                            @Html.ActionLink("Logout", "Logout", "User")
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Login", "Login", "User");
+                        }
+                    </li>
+                    @if (LoginUserSession.Current.IsAuthenticated)
+                    {
+                        if (LoginUserSession.Current.IsAdministrator)
+                        {
+                            <li class="liright">
+
+                                <p class="navbar-text"> Hello Tenno @LoginUserSession.Current.Username </p>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="liright">
+                                <p class="navbar-text">Hello Operative @LoginUserSession.Current.Username </p>
+                            </li>
+                        }
+                    }
+                    @if (LoginUserSession.Current.IsAdministrator)
+                    {
+                        <li>
+                            @Html.ActionLink("Users", "Users", "User")
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div id="navdivright">
+            </div>
+        </div>
+
+
+        <div id="bodydivmiddle">
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

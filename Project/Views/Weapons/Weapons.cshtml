@@ -1,0 +1,77 @@
+﻿@model IEnumerable<DataAccess.Weapon>
+@using Project.Helpers;
+
+@{
+    ViewBag.Title = "Weapons";
+}
+
+<h2>Weapons List</h2>
+
+@if (LoginUserSession.Current.IsAdministrator)
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Damage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Magazine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Critical)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th></th>
+    </tr>
+
+
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Damage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Magazine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Critical)%
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)%
+        </td>
+        @if (LoginUserSession.Current.IsAdministrator)
+        {
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        }
+        @if (LoginUserSession.Current.IsAdministrator == false)
+        {
+            <td>
+                |  @Html.ActionLink("Details", "Details", new { id = item.ID })
+            </td>
+        }
+
+    </tr>
+    }
+
+</table>
+
+@Html.ActionLink("Get Weapons with damage above 50", "GetAbove50", "Weapons", new { @class = "btn btn-default" })
+

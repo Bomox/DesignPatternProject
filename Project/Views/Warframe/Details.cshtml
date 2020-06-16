@@ -1,0 +1,55 @@
+﻿@model DataAccess.Warframe
+@using Project.Helpers;
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Health)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Health)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Energy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Energy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Armor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Armor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if (LoginUserSession.Current.IsAdministrator)
+    {
+        @Html.ActionLink("Edit", "Edit", "Warframe", new { id = Model.ID }, new { @class = "btn btn-default" });
+    }
+    <br />
+        @Html.ActionLink("Back to List", "Warframes", "Warframe", new { @class = "btn btn-default" }) 
+
+</p>

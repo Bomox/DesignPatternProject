@@ -1,0 +1,273 @@
+﻿html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+    body h1, h2, h3, h4, h5, h6 {
+        font-family: 'Source Code Pro', monospace;
+    }
+
+#background {
+    background-image: url(Images/bgnew.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Navigation CSS ---------------------------------------------------------------------------------------------------------------*/
+
+#navigation {
+    height: 6%;
+    background-color: black;
+}
+
+#navdivleft {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+#navdivmiddle {
+    height: 90%;
+    width: 60%;
+    float: left;
+}
+
+#navdivright {
+    height: 100%;
+    width: 20%;
+    float:right;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    background-color: black;
+}
+
+li {
+    text-align:justify;
+    float: left;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background-color: black;
+    width: 10%;
+    height: 110%;
+    font-size: 10px;
+}
+
+    li a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 17%;
+        color: #ff6a6a;
+        font-size: 15px;
+    }
+
+        li a:hover {
+            background-color: red;
+            color: white;
+            text-decoration: none;
+        }
+
+.liright {
+    color: #ff6a6a;
+    float: right;
+    text-align: center;
+    border-left: 1px solid red;
+    width: 150px;
+    height: 110%;
+    font-size: 13px;
+}
+
+.lirighta {
+    color: #ff6a6a;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 13px;
+    position: relative;
+}
+
+    .lirighta:hover {
+        background-color: red;
+        color: white;
+    }
+
+/*Body CSS -----------------------------------------------------------------------------------------------------------*/
+.divcontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.divs {
+    width: 100%;
+    height: 99%;
+}
+
+
+#bodydivmiddle {
+    height: 100%;
+    width: 60%;
+    text-align: left;
+    padding: 5px;
+    float: left;
+    margin-left: 20%;
+    background-color: white;
+    border: 1px solid red;
+    overflow: auto;
+}
+
+#bodydivmiddle h3 {
+    text-align: center;
+}
+
+.maindivleft {
+    height: 35%;
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+}
+
+.maindivright {
+    height: 35%;
+    width: 45%;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding: 2px;
+    float: right;
+    overflow: auto;
+}
+
+.divtitle{
+    text-align:center;
+    width:100%;
+    height:10%;
+    font-size:20px;
+}
+
+.divpicholder {
+    width: 100%;
+    height: 90%;
+    border: 4px solid red;
+}
+
+    .divpicholder:hover {
+        border: 4px solid #950000;
+    }
+
+    .divpic {
+        width: 100%;
+        height: 100%;
+    }
+
+.divleft {
+    height: 35%;
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 3%;
+    float: left;
+    border: 2px solid red;
+}
+
+.divright {
+    height: 35%;
+    width: 45%;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding: 2px;
+    float: right;
+    border: 2px solid red;
+    overflow: auto;
+}
+
+.divright h3 {
+    text-align:center;
+}
+
+/*Slideshow CSS--------------------------------------------------------------------------------------------------------------*/
+
+.slideshowdiv {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    height: 60%;
+    border: 5px solid red;
+}
+
+    .slideshowdiv:hover {
+        border: 5px solid #950000;
+    }
+
+    .slide {
+        display: none;
+        height: 100%;
+    }
+
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+
+
+.text {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+
+
+
+

@@ -1,0 +1,65 @@
+﻿@model DataAccess.Weapon
+@using Project.Helpers;
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Damage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Damage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Magazine)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Magazine)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Critical)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Critical)%
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)%
+        </dd>
+
+    </dl>
+</div>
+
+@if (LoginUserSession.Current.IsAdministrator)
+{
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-default" });
+}
+
+@Html.ActionLink("Back to List", "Weapons", "Weapons", new { @class = "btn btn-default" })
+
+
+
+
